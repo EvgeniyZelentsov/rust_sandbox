@@ -21,7 +21,7 @@ fn main() {
 fn get_random_coordinate() -> Coordinate{
     let mut random_generator = rand::thread_rng();
 
-    let range = -300_i32..=300_i32;
+    let range = -5_i32..=5_i32;
 
     let x = random_generator.gen_range(range.clone());
     let y = random_generator.gen_range(range.clone());
