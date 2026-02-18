@@ -18,4 +18,14 @@ impl fmt::Display for Coordinate {
     }
 }
 
+impl Copy for Coordinate{
+
+}
+
+impl Clone for Coordinate{
+    fn clone(&self) -> Self {
+        *self
+    }
+}
+
 
